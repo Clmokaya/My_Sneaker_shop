@@ -43,56 +43,7 @@ To run this application on your local machine, follow these steps:
 
 * Flutter
 * Dart
-* add dependencies automatically using pug get in vs code
-## Project Structure
-Markdown
-
-# Sneaker Shop App (Flutter)
-
-This Flutter application allows users to browse, order, and manage their sneaker purchases. It features a clean, user-friendly interface with dark and light mode support.
-
-## Features
-
-* **Product Browsing:** Explore a wide range of sneakers with detailed product views.
-* **Add to Cart:** Easily add desired sneakers to your shopping cart.
-* **Order Placement:** Securely place orders and track their status.
-* **Dark/Light Mode:** Seamlessly switch between light and dark themes for optimal viewing experience.
-* **Responsive Design:** Ensures a consistent user experience across various screen sizes.
-
-## Getting Started
-
-To run this application on your local machine, follow these steps:
-
-1.  **Clone the Repository:**
-
-    ```bash
-    git clone [Your Repository URL]
-    ```
-
-2.  **Navigate to the Project Directory:**
-
-    ```bash
-    cd [Your Project Directory]
-    ```
-
-3.  **Install Dependencies:**
-
-    ```bash
-    flutter pub get
-    ```
-
-4.  **Run the Application:**
-
-    ```bash
-    flutter run
-    ```
-
-    (Ensure you have a connected device or emulator.)
-
-## Technologies Used
-
-* Flutter
-* Dart
+* add dependencies automatically using pug get in vs code*
 
 
 ## Project Structure
