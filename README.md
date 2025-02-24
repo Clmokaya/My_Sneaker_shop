@@ -22,22 +22,16 @@ To run this application on your local machine, follow these steps:
 1.  **Clone the Repository:**
 
     ```bash
-    git clone [Your Repository URL]
+    git clone https://github.com/Clmokaya/My_Sneaker_shop.git
     ```
 
-2.  **Navigate to the Project Directory:**
-
-    ```bash
-    cd [Your Project Directory]
-    ```
-
-3.  **Install Dependencies:**
+2.  **Install Dependencies:**
 
     ```bash
     flutter pub get
     ```
 
-4.  **Run the Application:**
+3.  **Run the Application:**
 
     ```bash
     flutter run
