@@ -65,10 +65,6 @@ This Flutter application allows users to browse, order, and manage their sneaker
 * **Dark/Light Mode:** Seamlessly switch between light and dark themes for optimal viewing experience.
 * **Responsive Design:** Ensures a consistent user experience across various screen sizes.
 
-## Screenshots
-
-![image alt]()
-
 ## Getting Started
 
 To run this application on your local machine, follow these steps:
