@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_sneaker_shop/components/bottom_nav_bar.dart';
+import 'package:my_sneaker_shop/controller%20screens/SettingScreen.dart';
 import 'package:my_sneaker_shop/pages/cart_page.dart';
 import 'package:my_sneaker_shop/pages/shop_page.dart';
 
@@ -88,6 +89,27 @@ class _HomePageState extends State<HomePage> {
                   ),
                   title: Text(
                     'About',
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(left: 25),
+                child: ListTile(
+                  leading: InkWell(
+                    onTap: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) {
+                        return Settingscreen();
+                      }));
+                    },
+                    child: Icon(
+                      Icons.settings,
+                      color: Colors.white,
+                    ),
+                  ),
+                  title: Text(
+                    'Settings',
                     style: TextStyle(color: Colors.white),
                   ),
                 ),
