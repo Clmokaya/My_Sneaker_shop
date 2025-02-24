@@ -12,7 +12,7 @@ This Flutter application allows users to browse, order, and manage their sneaker
 
 ## Screenshots
 
-
+![image alt](https://github.com/Clmokaya/My_Sneaker_shop/blob/2f9dc7231919380a204e00c1660cff30e0879a07/sneaker%20shop%20app.png)
 
 
 ## Getting Started
