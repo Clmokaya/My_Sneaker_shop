@@ -1,16 +1,73 @@
-# my_sneaker_shop
+# Sneaker Shop App (Flutter)
 
-A new Flutter project.
+This Flutter application allows users to browse, order, and manage their sneaker purchases. It features a clean, user-friendly interface with dark and light mode support.
+
+## Features
+
+* **Product Browsing:** Explore a wide range of sneakers with detailed product views.
+* **Add to Cart:** Easily add desired sneakers to your shopping cart.
+* **Order Placement:** Securely place orders and track their status.
+* **Dark/Light Mode:** Seamlessly switch between light and dark themes for optimal viewing experience.
+* **Responsive Design:** Ensures a consistent user experience across various screen sizes.
+
+## Screenshots
+
+![image alt](https://github.com/Clmokaya/My_Sneaker_shop/blob/2f9dc7231919380a204e00c1660cff30e0879a07/sneaker%20shop%20app.png)
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this application on your local machine, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+1.  **Clone the Repository:**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+    ```bash
+    git clone https://github.com/Clmokaya/My_Sneaker_shop.git
+    ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2.  **Install Dependencies:**
+
+    ```bash
+    flutter pub get
+    ```
+
+3.  **Run the Application:**
+
+    ```bash
+    flutter run
+    ```
+
+    (Ensure you have a connected device or emulator.)
+
+## Technologies Used
+
+* Flutter
+* Dart
+* add dependencies automatically using pug get in vs code*
+
+
+## Project Structure
+
+lib/
+├── models/
+│   └── sneaker.dart
+├── pages/
+│   ├── cart_page.dart
+│   ├── home_page.dart
+│   ├── product_details_page.dart
+├── components/
+│   ├── sneaker_tile.dart
+│   ├── cart_item.dart
+├── main.dart
+
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
+
+1.  Fork the repository.
+2.  Create a new branch for your feature or bug fix.
+3.  Make your changes and commit them with clear, descriptive messages.
+4.  Push your changes to your fork.
+5.  Submit a pull request.
+
